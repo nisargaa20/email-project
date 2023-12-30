@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sender</title>
+</head>
+<body>
+    <center>
+        <br>
+        <img src="/static/download.jpg" alt="">
+        <h1>EMAIL SENDER</h1>
+        <br>
+        <form action="/send_mail" method="POST">
+            <input name="u_full_name" placeholder="Please enter your full name">
+            <br><br>
+            <input name="u_email" placeholder='Enter your Email ID'>
+            <br><br>
+            <button type="submit" style="background-color: lightblue; color: maroon;"> SEND </button>
+        </form>
+        <button onclick="sendAlert()">JS BUTTON</button>
+    </center>
+    <script src="/static/one.js"></script>
+</body>
+</html>
